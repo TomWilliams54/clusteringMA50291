@@ -2,9 +2,9 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-def data_init(Filename)
+def data_init(Filename):
     
-    data = pd.read_csv(str(Filename))
+    data = pd.read_csv(Filename)
     # Calculating mean
     mean = data.mean()
 
